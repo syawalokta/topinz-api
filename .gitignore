@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# builds
+.next/
+out/
+dist/
+build/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# misc
+.DS_Store
+*.pem
+coverage/
+.turbo/
+.vercel
+
+# local db / test artifacts
+.mongodb-binaries/
+screenshots/
+*.tsbuildinfo
